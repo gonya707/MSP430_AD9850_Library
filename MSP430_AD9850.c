@@ -38,8 +38,7 @@ void AD9850_Osc(double frequency, double phase){
 	int i;
 	long  y = frequency * FREQ_FACTOR / XTAL_MHZ;
 
-	while(phase > 360)
-		phase -= 360;
+	phase = phase % 360;
 	long z = phase / 11.5;
 
 	//Frequency 32-bit word
