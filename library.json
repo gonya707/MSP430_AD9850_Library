@@ -1,5 +1,5 @@
 {
-  "name": "MSP430-AD9850",
+  "name": "AD9850",
   "keywords": "dds, signal, generator",
   "description": "The AD9850 is a highly integrated device that uses advanced DDS technology coupled with an internal high speed, high performance D/A converter and comparator to form a complete, digitally programmable frequency synthesizer and clock generator function",
   "repository":
@@ -8,5 +8,6 @@
     "url": "https://github.com/gonya707/MSP430_AD9850_Library.git"
   },
   "exclude": "targetConfigs",
-  "examples": "main.c"
+  "examples": "main.c",
+  "platforms": "timsp430"
 }
